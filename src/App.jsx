@@ -42,7 +42,7 @@ function App() {
     <Route path = '/' element ={<HomePage />} />
     <Route path = '/About' element ={< About />} />
     <Route path = '/Dashboard' element ={< Dashboard stock={stock} />} />
-    <Route path = '/Stock/:symbol' element ={< Stock />} />
+    <Route path = '/Stock/:symbol' element ={< Stock name ={name}/>} />
     </Routes>
     </>
   )
